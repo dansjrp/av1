@@ -1,5 +1,6 @@
 # Executar o app
 dotnet restore
+
 dotnet run
 
 # Visualiazar pelo Postman

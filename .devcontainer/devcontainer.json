@@ -1,0 +1,19 @@
+{
+    "image": "mcr.microsoft.com/devcontainers/dotnet:8.0-bookworm",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-dotnettools.csdevkit"
+            ]
+        }
+    },
+    "postStartCommand": "dotnet dev-certs https --trust",
+    "features": {
+        "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+    },
+    "hostRequirements": {
+        "cpus": 4,
+        "memory": "8gb",
+        "storage": "16gb"
+    }
+}
